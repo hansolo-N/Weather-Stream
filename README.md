@@ -1,7 +1,7 @@
 # ☀️🌪️ Weather Data Streaming - Apache Airflow and Apache Kafka
 
 ## Introduction
-This project focusses on fetching weather data from OpenWeather API, more specifically Cape Town's weather data, sending it to Apache Kafka platofrm which is then later Streamed using Spark 
+This project focusses on fetching weather data from OpenWeather API, more specifically Cape Town's weather data, sending it to Apache Kafka platform which is then later Streamed using Spark 
 streaming to an Apache Cassandra db.
 
 ## Architecture
@@ -41,5 +41,6 @@ The data is outputted in a JSON format from the OpenWeather API I then formatted
 > - name - City name.
 
 ## Takeways
-This was a pretty simple project to execute, however I encountered some issues setting up the Spark streaming, as encountered some compatibilty issues when using the latest versions of packages.
+This was a pretty simple project to execute, however I encountered some issues setting up the Spark streaming, as I encountered some compatibilty issues when using the latest versions of packages,
+more specifically the spark-sql-kafka and spark-connector packages.
 

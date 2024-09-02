@@ -5,7 +5,7 @@ This project focusses on fetching weather data from OpenWeather API, more specif
 streaming to an Apache Cassandra db.
 
 ## Architecture
-![Project Architecture Flow diagram AWS.](AWS Architecture.jpeg)
+![Project Architecture for streaming Weather data.](Weather_Stream_Architecture.jpeg)
 
 ## Technology Used
 1. Programming Language: Python

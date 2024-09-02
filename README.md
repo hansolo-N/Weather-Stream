@@ -1,4 +1,4 @@
-# 🔴⚪ Weather Data Streaming - Apache Airflow and Apache Kafka
+# ☀️🌪️ Weather Data Streaming - Apache Airflow and Apache Kafka
 
 ## Introduction
 This project focusses on fetching weather data from OpenWeather API, more specifically Cape Town's weather data, sending it to Apache Kafka platofrm which is then later Streamed using Spark 
